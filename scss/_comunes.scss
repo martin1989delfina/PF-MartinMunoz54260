@@ -14,10 +14,10 @@ body {
     }
 p {
     text-align: justify;
+}
 .imgindex {
     max-width: 90%;
     padding: 20px;
-}
 }
 .nav-link, 
 nav-link.active,
@@ -80,7 +80,7 @@ nav-link.active,
 }
 .derechos {
     display: flex;
-    font-size: $font-ss;
+    font-size: 10px;
     justify-content: center;   
 }
 .redes {
@@ -105,6 +105,9 @@ nav-link.active,
         width: 50px;
         opacity: 50%;
 }
+    .derechos {
+        font-size: $font-ss;
+    }
 }
 
 @media (min-width: $tablet) {
