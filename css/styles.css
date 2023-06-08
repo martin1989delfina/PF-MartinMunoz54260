@@ -46,7 +46,8 @@ body {
 p {
   text-align: justify;
 }
-p .imgindex {
+
+.imgindex {
   max-width: 90%;
   padding: 20px;
 }
@@ -123,7 +124,7 @@ nav-link.active:hover,
 
 .derechos {
   display: flex;
-  font-size: 14px;
+  font-size: 10px;
   justify-content: center;
 }
 
@@ -155,6 +156,9 @@ nav-link.active:hover,
     padding: 3px;
     width: 50px;
     opacity: 50%;
+  }
+  .derechos {
+    font-size: 14px;
   }
 }
 @media (min-width: 768px) {
